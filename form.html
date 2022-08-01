@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mulago Survey Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+
+  <body>
+    <section>
+      <h1>Mulago Hospital Patient Survey</h1>
+      <h2>
+        Please fill in the following details and the hospital promises that all
+        your information will be treated with much confidentiality
+      </h2>
+      <div class="first">
+      <p>Patient Survey Form</p>
+    </div>
+      <div class="second">
+      <form action="bugs.html" autocomplete="on">
+        <p>
+          <label for="First Name">First Name: </label>
+          <input
+            type="text"
+            name="text"
+            id="First Name"
+            required
+            placeholder="Enter First Name"
+          />
+        </p>
+        <p>
+          <label for="Last Name">Last Name: </label>
+          <input
+            type="text"
+            name="text"
+            id="Last Name"
+            required
+            placeholder="Enter Last Name"
+          />
+        </p>
+        <p>
+          <label for="Email Address">Email Address: </label>
+          <input
+            type="Email"
+            name="Email"
+            id="Email Address"
+            required
+            placeholder="Enter Your Email"
+          />
+        </p>
+        <p>
+          <label for="Phone Number">Phone Number: </label>
+          <input
+            type="tel"
+            name="Phone Number"
+            id="Phone Number"
+            required
+            maxlength="10"
+          />
+        </p>
+        <p>
+          <label for="Residence">Residence: </label>
+          <input type="text" name="Residence" id="Residence" required />
+        </p>
+        <p>
+          <label for="Gender">Gender: </label>
+          <input type="radio" name="Gender" id="Gender" required />
+          <label for="Gender"> Male</label>
+          <input type="radio" name="Gender" id="Gender" required />
+          <label for="Gender"> Female</label>
+        </p>
+        <p>
+          <label for="Age Range">Age Range: </label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Range"> 0 - 9</label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Range"> 10 - 19</label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Range"> 20 - 29</label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Range"> 30 - 39</label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Range"> 40 - 49</label>
+          <input type="radio" name="Age Range" id="Age Range" required />
+          <label for="Age Rage"> 50 and Above</label>
+        </p>
+        <p>
+          <label for="Comments">Comments: </label>
+          <textarea
+            name="Input comments here"
+            id="Comments"
+            cols="30"
+            rows="10"
+          >
+write Patient's Comments</textarea
+          >
+        </p>
+        <p>
+          <label
+            for="I Confirm that the above information is True and Authentic"
+            >I Confirm that the Above Information is True and Authentic</label
+          >
+          <input
+            type="checkbox"
+            name="checkbox"
+            id="I Confirm that the above information is True and Authentic"
+            required
+          />
+        </p>
+        <p>
+          <button type="submit" class="button">Submit</button>
+        </p>
+      </form>
+    </section>
+</div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+1(f)
+web Server is a collection of computer files
+e
+Web accessibility refers to the tools by mostly by the screen readers to access web files
+a
+Elements refer to the features embedded within the tag container forexample style Elements and anchor tags among others
+b
+Attributes refer to the features embedded within an element to give it more morning forexample the text allignment, fontweight among others.
