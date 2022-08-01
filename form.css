@@ -1,0 +1,35 @@
+body{
+    background-color: #333;
+    color: whitesmoke;
+}
+.second{
+    width: 300px;
+    height: 600px;
+    background-color: Black;
+    padding: 30px;
+    border: 1px white solid;
+    border-radius: 5px;
+    color: white;
+    text-align: left;
+    margin: auto auto auto auto;
+}
+.first{
+    background-color:white;
+    color: black;
+    width: 300px;
+    height: 10px;
+    padding: 30px;
+    border: ipx solid white;
+    border-radius:5px ;
+    text-align: left;
+    margin: auto auto auto auto;
+}
+p{
+    text-align: left;
+}
+.button{
+    border: 1px solid #008000;
+    border-radius: 5px;
+    background-color: #008000;
+    color: whitesmoke;
+}
